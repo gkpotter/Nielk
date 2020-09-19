@@ -183,9 +183,6 @@ void handle_game_input() {
       if (arduboy.justPressed(A_BUTTON)) {
         paused = !paused;
       }
-      if (arduboy.justPressed(B_BUTTON)) {
-        Serial.write(arduboy.getBuffer(), 128 * 64 / 8);
-      }
       break;
     case 2:
       if (arduboy.justPressed(A_BUTTON)) {
