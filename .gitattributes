@@ -1,3 +1,2 @@
 *.ino linguist-language=C++
-*.h linguist-vendored=false
-*.hex linguist-vendored=false
+*.h linguist-language=C++
